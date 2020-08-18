@@ -1,0 +1,24 @@
+server:
+  port: 8031
+
+spring:
+  application:
+    name: email-service
+  mail:
+    host: smtp.163.com
+    username: wuyuke163@163.com
+    password: weixiao0216
+    default-encoding: utf-8
+    protocol: smtp
+  rabbitmq:
+    host: 192.168.0.111
+    port: 5672
+    username: alpha
+    password: 123456
+    virtual-host: alpha01
+
+#Email
+mail:
+  fromMail:
+    sender: wuyuke163@163.com
+    receiver: wuyuke163@163.com

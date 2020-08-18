@@ -1,0 +1,23 @@
+server:
+  port: 8001
+
+dubbo:
+  application:
+    name: ${spring.application.name}
+  protocol:
+    name: dubbo
+    port: 20880
+  registry:
+    address: zookeeper://192.168.0.111:2181
+  scan:
+    base-packages: io.example.service
+
+spring:
+  application:
+    name: provider-service
+  rabbitmq:
+    host: 192.168.0.111
+    port: 5672
+    username: alpha
+    password: 123456
+    virtual-host: alpha01

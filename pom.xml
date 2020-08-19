@@ -24,16 +24,6 @@
     </parent>
 
     <dependencies>
-        <!-- web module -->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-        <!-- rabbitmq lib -->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-amqp</artifactId>
-        </dependency>
         <!-- dubbo lib -->
         <dependency>
             <groupId>org.apache.dubbo</groupId>
@@ -49,6 +39,12 @@
             <groupId>org.apache.curator</groupId>
             <artifactId>curator-recipes</artifactId>
             <version>4.2.0</version>
+        </dependency>
+
+        <!-- rabbitmq lib -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-amqp</artifactId>
         </dependency>
 
         <!-- test module -->

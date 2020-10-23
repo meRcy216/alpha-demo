@@ -12,11 +12,7 @@
     <artifactId>alpha-api</artifactId>
 
     <dependencies>
-        <dependency>
-            <groupId>io.example</groupId>
-            <artifactId>alpha-api</artifactId>
-            <version>1.0</version>
-        </dependency>
+
     </dependencies>
 
 </project>
